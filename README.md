@@ -1,16 +1,23 @@
-# nike_design_app
+# NIKE SHOP DESIGN
 
-A new Flutter project.
+App with animaitions about NIKE 
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+Products Page :
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen1.png" alt="alt text"  style="width:300px;height:600px">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+----------------------------------------
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen2.png" alt="alt text"  style="width:300px;height:600px">
+
+----------------------------------------
+
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen3.png" alt="alt text"  style="width:300px;height:600px">
+
+............................................
+
+Detalle Product (in progress )
+
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen4.png" alt="alt text"  style="width:300px;height:600px">
