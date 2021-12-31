@@ -110,7 +110,7 @@ class _HomeShopState extends State<HomeShop> {
                           offset: const Offset(5, 0),
                           child: LayoutBuilder(builder: (context, constraints) {
                             return AnimatedContainer(
-                                duration: const Duration(milliseconds: 250),
+                                duration: const Duration(milliseconds: 350),
                                 margin: EdgeInsets.only(
                                     top: index == indexPage ? 30 : 50,
                                     bottom: 30),
@@ -173,22 +173,25 @@ class _HomeShopState extends State<HomeShop> {
                                         left: constraints.maxWidth * 0.01,
                                         right: -constraints.maxWidth * 0 - 16,
                                         bottom: constraints.maxHeight * 0.2,
-                                        child: Image(
-                                            image: AssetImage(
-                                                deportivo.listaI[0].image))),
+                                        child: Hero(
+                                          tag: deportivo.nombre,
+                                          child: Image(
+                                              image: AssetImage(
+                                                  deportivo.listaI[0].image)),
+                                        )),
                                     Positioned(
                                         bottom: 0,
                                         right: 0,
                                         child: Material(
                                           color: deportivo.listaI[0].color,
-                                          borderRadius: BorderRadius.only(
+                                          borderRadius: const BorderRadius.only(
                                               topLeft: Radius.circular(36),
                                               bottomRight: Radius.circular(30)),
                                           clipBehavior:
                                               Clip.antiAliasWithSaveLayer,
                                           child: InkWell(
                                             onTap: () {},
-                                            child: SizedBox(
+                                            child: const SizedBox(
                                               height: 100,
                                               width: 100,
                                               child: Icon(

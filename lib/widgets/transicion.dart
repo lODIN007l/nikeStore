@@ -19,13 +19,14 @@ class TransicionShake extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
-        tween: Tween(begin: 1.0, end: 0.0),
         duration: duration,
+        curve: Curves.easeInOut,
+        tween: Tween(begin: 1.0, end: 0.0),
         builder: (BuildContext context, double valor, Widget? child) {
           return Transform.translate(
             offset: left
                 ? Offset(-valor * offset, valor * offset)
-                : Offset(valor * offset, -valor * offset),
+                : Offset(valor * offset, -valor * -offset),
             child: child,
           );
         });
