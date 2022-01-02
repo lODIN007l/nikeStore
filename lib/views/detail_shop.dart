@@ -124,7 +124,7 @@ class _DetallePageState extends State<DetallePage> {
                         Text(
                           widget.deportivo.categoria,
                           style: const TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.w600),
+                              fontSize: 16, fontWeight: FontWeight.w400),
                         ),
                         const SizedBox(
                           height: 8,
@@ -132,7 +132,7 @@ class _DetallePageState extends State<DetallePage> {
                         Text(
                           widget.deportivo.nombre,
                           style: const TextStyle(
-                              fontWeight: FontWeight.w500, fontSize: 30),
+                              fontWeight: FontWeight.bold, fontSize: 22),
                         ),
                       ],
                     ),
@@ -210,7 +210,7 @@ class _DetallePageState extends State<DetallePage> {
             ),
           ),
           Positioned(
-            top: size.height * 0.82,
+            top: size.height * 0.85,
             left: size.height * 0.015,
             right: 16,
             child: Row(

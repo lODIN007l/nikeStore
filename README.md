@@ -21,3 +21,12 @@ Products Page :
 Detalle Product (in progress )
 
 <img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen4.png" alt="alt text"  style="width:300px;height:600px">
+
+-------------------------------
+Screen Details animated 
+
+
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen5.png" alt="alt text"  style="width:300px;height:600px">
+
+
+<img src="https://github.com/lODIN007l/nikeStore/blob/main/screenshot/screen6.png" alt="alt text"  style="width:300px;height:600px">
